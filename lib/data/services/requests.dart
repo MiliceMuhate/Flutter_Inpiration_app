@@ -1,21 +1,25 @@
-import 'dart:convert';
+// // import 'dart:html';
 
-import 'package:inspirationapp/models/publicacoesModel.dart';
-import 'package:inspirationapp/presentation/constantes.dart';
-import 'package:http/http.dart' as http;
+// import 'package:flutter/material.dart';
+// import 'package:flutter/widgets.dart';
+// import 'package:firebase_core/firebase_core.dart';
+// import 'package:firebase_storage/firebase_storage.dart'; // Import for storage functionality
+// import 'package:inspirationapp/firebase_options.dart';
 
-Future<publicacoes> getPublications() async {
-  var baseurl = URL;
-  var url = Uri.parse('$baseurl/');
-  var response = await http.get(url);
+// Future<Image?> getImage() async {
+//   // Ensure Firebase is initialized before using storage
+//   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
 
-  if (response.statusCode == 200) {
-    return publicacoes.fromJson(jsonDecode(response.body));
-    //    return jsonDecode(response.body);
-  } else if (response.statusCode == 500) {
-    // A resposta HTTP não foi bem-sucedida, você pode lidar com isso de acordo com sua lógica.
-    throw Exception('Formatação Invalida!: ${response.statusCode}');
-  } else {
-    throw Exception('Email nao encontado!: ${response.statusCode}');
-  }
-}
+//   final String imagePath = 'images/profile_picture.jpg';
+//   final Reference storageRef = FirebaseStorage.instance.ref().child(imagePath);
+
+//   try {
+//     final String downloadUrl = await storageRef.getDownloadURL();
+//     return Image.network(downloadUrl); // Update state with Image
+//   } catch (error) {
+//     // Handle errors appropriately, e.g., display an error message
+//     print('Error fetching image: $error');
+//   }
+// }
+
+

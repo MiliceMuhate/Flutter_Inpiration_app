@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "488334136345",
+    "project_id": "inspiration-acf13",
+    "storage_bucket": "inspiration-acf13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488334136345:android:aea4434a985a6f9d444688",
+        "android_client_info": {
+          "package_name": "com.example.inspirationapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVYpy2h30bGD9T8ZK0J5ZsREVUEle3_Dc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

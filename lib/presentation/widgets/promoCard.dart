@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-Widget promoCard(image,nome) {
+Widget promoCard(image, nome) {
   return AspectRatio(
     aspectRatio: 2.62 / 3,
     child: Container(
@@ -9,7 +9,7 @@ Widget promoCard(image,nome) {
         borderRadius: BorderRadius.circular(20),
         image: DecorationImage(
           fit: BoxFit.cover,
-          image: AssetImage(image),
+          image: NetworkImage(image),
         ),
       ),
       child: Container(
@@ -38,13 +38,12 @@ Widget promoCard(image,nome) {
   );
 }
 
-Widget bigPromoCard(image,nome) {
+Widget bigPromoCard(image, nome) {
   return Container(
     height: 150,
     decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
-        image: DecorationImage(
-            fit: BoxFit.cover, image: AssetImage(image))),
+        image: DecorationImage(fit: BoxFit.cover, image: NetworkImage(image))),
     child: Container(
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
