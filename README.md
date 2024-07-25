@@ -9,7 +9,7 @@ This project is a starting point for a Flutter application.
 A few resources to get you started if this is your first Flutter project:
 
 <p>
-  <img src="Flutter_Inpiration_app/blob/main/assets/screenshot1.png">
+  <img src="assets/screenshot1.png">
 </p>
 
 For help getting started with Flutter development, view the
