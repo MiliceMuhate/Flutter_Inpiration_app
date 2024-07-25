@@ -11,6 +11,9 @@ A few resources to get you started if this is your first Flutter project:
 <p>
   <img src="assets/screenshot1.png">
 </p>
+<p>
+  <img src="assets/screenshot2.png">
+</p>
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
